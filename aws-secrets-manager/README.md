@@ -20,7 +20,8 @@ Lambda.
 
 ## Files
 
-- lambda_function.py
+- secret-key-rotation-lambda.py
+- policy.json
 - README.md
 
 ## Requirements
