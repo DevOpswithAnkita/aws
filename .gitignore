@@ -1,0 +1,33 @@
+# Create a .gitignore file for the AWS Lambda Python project
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Environment variables
+.env
+
+# macOS files
+.DS_Store
+
+# IDE files
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# AWS SAM / Serverless
+.aws-sam/
+.serverless/
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
